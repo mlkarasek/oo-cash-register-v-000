@@ -7,4 +7,16 @@ class CashRegister
 
   end
 
+  def self.add_item
+  end
+
+  def self.apply_discount
+  end
+
+  def items
+  end 
+
+  def self.void_last_transaction
+    self.all.clear 
 end
+end 
