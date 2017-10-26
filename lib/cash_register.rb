@@ -13,10 +13,11 @@ class CashRegister
   def self.apply_discount
   end
 
-  def items
+  def self.items
+
   end
 
   def self.void_last_transaction
-    self.all.clear 
+  
 end
 end
